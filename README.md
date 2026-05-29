@@ -1,7 +1,12 @@
 ![SafeRide](UI%20UX/logo-saferide.png)
 
 # SafeRide: Sistem Helm Pintar guna Keselamatan Berkendara Berbasis ATmega2560 untuk Mengatasi Risiko Kelelahan dan Kecelakaan pada Ojek Online Kota Surabaya dalam Mendukung SDGs No. 3 Kehidupan Sehat dan Sejahtera
-Proyek ini merupakan rancang bangun helm pintar berbasis mikrokontroler ATmega2560 yang berfungsi untuk memonitor kondisi pengendara, memberikan peringatan dini saat mengantuk, serta melakukan panggilan darurat otomatis apabila terjadi kecelakaan (deteksi ketika terjatuh) dan hal lain yang menyangkut keselamatan berkendara, difokuskan untuk membantu pengemudi ojek online di Kota Surabaya, mengingat tingginya mobilitas dan risiko kerja yang mereka hadapi di jalan raya. 
+
+> **Sering merasa lelah, mengantuk, atau khawatir dengan risiko tak terduga saat membelah jalanan kota?** 
+
+Bagi para pejuang jalanan—khususnya rekan-rekan **Ojek Online di Kota Surabaya** yang setiap hari menantang padatnya lalu lintas dengan mobilitas super tinggi—keselamatan adalah taruhan utama. Di sinilah **SafeRide** hadir membawa perubahan! Kami mendefinisikan ulang fungsi helm pelindung: dari sekadar alat pasif penahan benturan, menjadi **Asisten Keselamatan Aktif berbasis IoT** yang cerdas dan responsif. Dengan SafeRide, kamu tidak lagi berkendara sendirian. Kami mengintegrasikan teknologi mikrokontroler canggih demi memastikan kamu berangkat produktif, dan **pulang ke rumah dengan selamat**. 
+
+*Bersama SafeRide, mari buat perjalanan menjadi lebih aman, tenang, dan terlindungi di setiap kilometer!* 🏁🛡️
 
 ---
 
@@ -15,7 +20,6 @@ Proyek ini merupakan rancang bangun helm pintar berbasis mikrokontroler ATmega25
    
 4. **Sistem Darurat Terintegrasi Server & Manual Trigger:** Mengirimkan data telemetri dan sinyal bahaya secara otomatis ke *server* ketika insiden jatuh terkonfirmasi. Menyediakan Tombol Manual Darurat (*Emergency Button*) pada helm sebagai cadangan (*redundancy system*) jika sistem otomatis gagal mendeteksi atau dalam kondisi bahaya lainnya.
 
----
 ### 🏫 Supported By
 
 * **Dosen Pengampu:** Akhmad Hendriawan ST., MT. (NIP. 197501272002121003)
@@ -34,7 +38,7 @@ Proyek ini merupakan rancang bangun helm pintar berbasis mikrokontroler ATmega25
 | 2124600053 | Arda Arinal Chusna | Hardware | [ArdaArinal](https://github.com/ardaarinalc) |
 | 2124600041 | Naurah Carina Wantoro | UI/UX Designer | [NaurahCarina](https://github.com/NaurahCarinaW) |
 | 2124600045 | Wahyu Rizky Setyawan | QA | [WahyuSetyawan](https://github.com/wahyusetiyawan71-glitch) |
-
+---
 ## 🛠️ Komponen 
 1. **Arduino Mega (ATmega2560):** Otak utama sistem yang berfungsi memproses seluruh data dari sensor dan mengendalikan modul keluaran secara cepat dan efisien.
 2. **Sensor IMU MPU6050 (Gyroscope + Accelerometer):** Sensor inersia presisi tinggi yang bertugas membaca orientasi, tingkat kemiringan helm, dan mendeteksi gerakan mengangguk (*nodding*) saat mengantuk maupun kondisi ekstrem saat terjatuh.
