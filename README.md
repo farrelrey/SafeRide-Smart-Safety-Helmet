@@ -28,7 +28,7 @@ Proyek ini merupakan rancang bangun helm pintar berbasis mikrokontroler ATmega25
 
 | NRP | Nama | Jobdesk | Akun |
 | :--- | :--- | :--- | :--- |
-| 21246000 |  | Project Manager | []() |
+| 2124600033 | Farrel Reyhan Priyatnah | Project Manager | [farrelrey](https://github.com/farrelrey) |
 | 21246000 |  | 3D Designer| []() |
 | 21246000 |  | Progammer | []() |
 | 2124600041 | Naurah Carina Wantoro | UI/UX Designer | []() |
