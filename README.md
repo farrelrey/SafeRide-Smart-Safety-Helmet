@@ -7,7 +7,7 @@ Proyek ini merupakan rancang bangun helm pintar berbasis mikrokontroler ATmega25
 
 1. Implementasi Sistem Deteksi Kantuk: Mengintegrasikan sensor parameter fisik/fisiologis untuk mendeteksi tingkat kelelahan pengendara dan memberikan respons peringatan dini berupa getaran halus secara bertahap menggunakan output analog (PWM).
 
-2.Implementasi Sistem Fall Detection: Memanfaatkan sensor giroskop dan akselerometer untuk mengenali perubahan sudut kemiringan ekstrem dan mendeteksi kondisi pengendara saat terjatuh secara real-time.
+2. Implementasi Sistem Fall Detection: Memanfaatkan sensor giroskop dan akselerometer untuk mengenali perubahan sudut kemiringan ekstrem dan mendeteksi kondisi pengendara saat terjatuh secara real-time.
 
 3. Sistem Panggilan Darurat Otomatis: Membangun modul komunikasi darurat yang dapat mengirimkan sinyal bantuan koordinat lokasi secara otomatis ketika insiden kecelakaan (jatuh) terkonfirmasi.
 
