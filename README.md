@@ -1,30 +1,28 @@
 # SafeRide: Sistem Helm Pintar guna Keselamatan Berkendara Berbasis ATmega2560 untuk Mengatasi Risiko Kelelahan dan Kecelakaan pada Ojek Online Kota Surabaya dalam Mendukung SDG No. 3 Kehidupan Sehat dan Sejahtera
-Proyek ini merupakan rancang bangun helm pintar berbasis mikrokontroler ATmega2560 yang berfungsi untuk memonitor kondisi pengendara, memberikan peringatan dini saat mengantuk, serta melakukan panggilan darurat otomatis apabila terjadi kecelakaan (deteksi ketika terjatuh) dan hal lain yang menyangkut keselamatan kerja 
+Proyek ini merupakan rancang bangun helm pintar berbasis mikrokontroler ATmega2560 yang berfungsi untuk memonitor kondisi pengendara, memberikan peringatan dini saat mengantuk, serta melakukan panggilan darurat otomatis apabila terjadi kecelakaan (deteksi ketika terjatuh) dan hal lain yang menyangkut keselamatan kerja, difokuskan untuk membantu pengemudi ojek online di Kota Surabaya, mengingat tingginya mobilitas dan risiko kerja yang mereka hadapi di jalan raya. 
 
 ---
 
-## Tujuan Proyek
+## 🎯 Tujuan Proyek
 
-1. Implementasi Sistem Deteksi Kantuk: Memanfaatkan sensor inersia (IMU) untuk mendeteksi perubahan orientasi atau gerakan kepala berulang yang tidak wajar (indikasi mikro-tidur/nodding).
+1. **Implementasi Sistem Deteksi Kantuk (Anti-Nodding):** Memanfaatkan sensor IMU untuk mendeteksi perubahan orientasi atau gerakan kepala berulang ke arah depan secara tidak wajar yang menjadi indikasi mikro-tidur (*micro-sleep/nodding*).
    
-2. Implementasi Sistem Fall Detection: Mengintegrasikan data percepatan linier 3-sumbu dari akselerometer dan kecepatan sudut dari giroskop untuk mendeteksi deviasi kemiringan ekstrem secara real-time.
+2. **Implementasi Sistem Fall Detection:** Mengintegrasikan data percepatan linier 3-sumbu dari akselerometer dan kecepatan sudut dari giroskop untuk mendeteksi deviasi kemiringan ekstrem dan hentakan kinetik secara *real-time* saat terjadi kecelakaan.
 
-3. Early Warning System:  Respons peringatan dini kantuk berupa getaran menggunakan Vibration Motor yang dikendalikan melalui pin Analog Output / PWM (Pulse Width Modulation) ATmega2560.
+3. **Early Warning System (Feedback Motor Vibrator):** Memberikan respons peringatan instan kepada pengendara yang terindikasi mengantuk berupa getaran melalui *Vibration Motor* yang dikendalikan via pin PWM (Pulse Width Modulation) ATmega2560.
    
-4. Sistem Panggilan Darurat Otomatis dan tombol darurat: Komunikasi darurat yang dapat mengirimkan sinyal secara otomatis ketika insiden kecelakaan (jatuh) terkonfirmasi dan terdapat Tombol Manual Darurat Pemicu (Manual Trigger) sebagai cadangan (backup) jika sistem otomatis (fall detection) gagal mendeteksi kecelakaan.
-
-
+4. **Sistem Darurat Terintegrasi Server & Manual Trigger:** Mengirimkan data telemetri dan sinyal bahaya secara otomatis ke *server* ketika insiden jatuh terkonfirmasi. Menyediakan Tombol Manual Darurat (*Emergency Button*) pada helm sebagai cadangan (*redundancy system*) jika sistem otomatis gagal mendeteksi atau dalam kondisi bahaya lainnya.
 
 ---
-### Support By
+### 🏫 Supported By
 
-* Dosen Pengampu: Akhmad Hendriawan ST., MT. (NIP. 197501272002121003)
-* Mata Kuliah: Mikrokontroler
-* Program Studi: D4 Teknik Elektronika
-* Politeknik Elektronika Negeri Surabaya
+* **Dosen Pengampu:** Akhmad Hendriawan ST., MT. (NIP. 197501272002121003)
+* **Mata Kuliah:** Mikrokontroler
+* **Program Studi:** D4 Teknik Elektronika
+* **Institusi:** Politeknik Elektronika Negeri Surabaya
 
 ---
-## Anggota Tim
+## 👥 Anggota Tim
 
 | NRP | Nama | Jobdesk | Akun |
 | :--- | :--- | :--- | :--- |
