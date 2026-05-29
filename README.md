@@ -30,7 +30,7 @@ Proyek ini merupakan rancang bangun helm pintar berbasis mikrokontroler ATmega25
 | :--- | :--- | :--- | :--- |
 | 2124600033 | Farrel Reyhan Priyatnah | Project Manager | [farrelrey](https://github.com/farrelrey) |
 | 2124600036 | Rafie Islamay Murdianto | 3D Designer| []() |
-| 2123600043 | Rifkie Surya Rahmaputra | Progammer | []() |
+| 2123600043 | Rifkie Surya Rahmaputra | Progammer | [RifkieSurya](https://github.com/Rifkiesurya44) |
 | 2124600053 | Arda Arinal Chusna | Hardware | []() |
 | 2124600041 | Naurah Carina Wantoro | UI/UX Designer | [NaurahCarina](https://github.com/NaurahCarinaW) |
 | 2124600045 | Wahyu Rizky Setyawan | QA | [WahyuSetyawan](https://github.com/wahyusetiyawan71-glitch) |
