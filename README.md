@@ -4,7 +4,7 @@
 
 > **Sering merasa lelah, mengantuk, atau khawatir dengan risiko tak terduga saat membelah jalanan kota?** 
 
-Bagi para pejuang jalanan—khususnya rekan-rekan **Ojek Online di Kota Surabaya** yang setiap hari menantang padatnya lalu lintas dengan mobilitas super tinggi—keselamatan adalah taruhan utama. Di sinilah **SafeRide** hadir membawa perubahan! Kami mendefinisikan ulang fungsi helm pelindung: dari sekadar alat pasif penahan benturan, menjadi **Asisten Keselamatan Aktif berbasis IoT** yang cerdas dan responsif. Dengan SafeRide, kamu tidak lagi berkendara sendirian. Kami mengintegrasikan teknologi mikrokontroler canggih demi memastikan kamu berangkat produktif, dan **pulang ke rumah dengan selamat**. 
+Bagi para pejuang jalanan khususnya rekan-rekan **Ojek Online di Kota Surabaya** yang setiap hari menantang padatnya lalu lintas dengan mobilitas super tinggi keselamatan adalah taruhan utama. Di sinilah **SafeRide** hadir membawa perubahan! Kami mendefinisikan ulang fungsi helm pelindung: dari sekadar alat pasif penahan benturan, menjadi **Asisten Keselamatan Aktif berbasis IoT** yang cerdas dan responsif. Dengan SafeRide, kamu tidak lagi berkendara sendirian. Kami mengintegrasikan teknologi mikrokontroler demi memastikan kamu berangkat produktif, dan **pulang ke rumah dengan selamat**. 
 
 *Bersama SafeRide, mari buat perjalanan menjadi lebih aman, tenang, dan terlindungi di setiap kilometer!* 🏁🛡️
 
