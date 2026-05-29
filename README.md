@@ -9,7 +9,7 @@ Proyek ini merupakan rancang bangun helm pintar berbasis mikrokontroler ATmega25
    
 2. **Implementasi Sistem Fall Detection:** Mengintegrasikan data percepatan linier 3-sumbu dari akselerometer dan kecepatan sudut dari giroskop untuk mendeteksi deviasi kemiringan ekstrem dan hentakan kinetik secara *real-time* saat terjadi kecelakaan.
 
-3. **Early Warning System (Feedback Motor Vibrator):** Memberikan respons peringatan instan kepada pengendara yang terindikasi mengantuk berupa getaran melalui *Vibration Motor* yang dikendalikan via pin PWM (Pulse Width Modulation) ATmega2560.
+3. **Early Warning System (Feedback Motor Vibrator & Buzzer):** Memberikan respons peringatan instan kepada pengendara yang terindikasi mengantuk berupa getaran melalui *Vibration Motor & Buzzer* yang dikendalikan via pin PWM (Pulse Width Modulation) ATmega2560.
    
 4. **Sistem Darurat Terintegrasi Server & Manual Trigger:** Mengirimkan data telemetri dan sinyal bahaya secara otomatis ke *server* ketika insiden jatuh terkonfirmasi. Menyediakan Tombol Manual Darurat (*Emergency Button*) pada helm sebagai cadangan (*redundancy system*) jika sistem otomatis gagal mendeteksi atau dalam kondisi bahaya lainnya.
 
