@@ -5,13 +5,15 @@ Proyek ini merupakan rancang bangun helm pintar berbasis mikrokontroler ATmega25
 
 ## Tujuan Proyek
 
-1. Implementasi Sistem Deteksi Kantuk: Mengintegrasikan sensor parameter fisik/fisiologis untuk mendeteksi tingkat kelelahan pengendara dan memberikan respons peringatan dini berupa getaran halus secara bertahap menggunakan output analog (PWM).
+1. Implementasi Sistem Deteksi Kantuk: Memanfaatkan sensor inersia (IMU) untuk mendeteksi perubahan orientasi atau gerakan kepala berulang yang tidak wajar (indikasi mikro-tidur/nodding).
+   
+2. Implementasi Sistem Fall Detection: Mengintegrasikan data percepatan linier 3-sumbu dari akselerometer dan kecepatan sudut dari giroskop untuk mendeteksi deviasi kemiringan ekstrem secara real-time.
 
-2. Implementasi Sistem Fall Detection: Memanfaatkan sensor giroskop dan akselerometer untuk mengenali perubahan sudut kemiringan ekstrem dan mendeteksi kondisi pengendara saat terjatuh secara real-time.
+3. Early Warning System:  Respons peringatan dini kantuk berupa getaran menggunakan Vibration Motor yang dikendalikan melalui pin Analog Output / PWM (Pulse Width Modulation) ATmega2560.
+   
+4. Sistem Panggilan Darurat Otomatis dan tombol darurat: Komunikasi darurat yang dapat mengirimkan sinyal secara otomatis ketika insiden kecelakaan (jatuh) terkonfirmasi dan terdapat Tombol Manual Darurat Pemicu (Manual Trigger) sebagai cadangan (backup) jika sistem otomatis (fall detection) gagal mendeteksi kecelakaan.
 
-3. Sistem Panggilan Darurat Otomatis: Membangun modul komunikasi darurat yang dapat mengirimkan sinyal bantuan koordinat lokasi secara otomatis ketika insiden kecelakaan (jatuh) terkonfirmasi.
 
-3. Optimasi Pemrosesan Data I/O: Menerapkan pengolahan sinyal berbasis interupsi dan pembacaan multi-parameter yang seimbang antara Analog Input/Output dan Digital Input/Output memanfaatkan kapasitas pin ekstensif pada arsitektur ATmega2560.
 
 ---
 
