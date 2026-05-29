@@ -22,3 +22,15 @@ Proyek ini merupakan rancang bangun helm pintar berbasis mikrokontroler ATmega25
 * Mata Kuliah: Mikrokontroler
 * Program Studi: D4 Teknik Elektronika
 * Politeknik Elektronika Negeri Surabaya
+
+---
+## Anggota Tim
+
+| NRP | Nama | Jobdesk | Akun |
+| :--- | :--- | :--- | :--- |
+| 21246000 |  | Project Manager | []() |
+| 21246000 |  | 3D Designer| []() |
+| 21246000 |  | Progammer | []() |
+| 21246000 |  | UI/UX Designer | []() |
+| 2124600045 | Wahyu Rizky Setyawan | QA | [WahyuSetyawan](https://github.com/wahyusetiyawan71-glitch) |
+| 21246000 |  | Hardware | []() |
