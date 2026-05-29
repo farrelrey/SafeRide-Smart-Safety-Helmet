@@ -1,5 +1,5 @@
 # SafeRide: Sistem Helm Pintar guna Keselamatan Berkendara Berbasis ATmega2560 untuk Mengatasi Risiko Kelelahan dan Kecelakaan pada Ojek Online Kota Surabaya dalam Mendukung SDG No. 3 Kehidupan Sehat dan Sejahtera
-Proyek ini merupakan rancang bangun helm pintar berbasis mikrokontroler ATmega2560 yang berfungsi untuk memonitor kondisi pengendara, memberikan peringatan dini saat mengantuk, serta melakukan panggilan darurat otomatis apabila terjadi kecelakaan (deteksi ketika terjatuh) dan hal lain yang menyangkut keselamatan kerja, difokuskan untuk membantu pengemudi ojek online di Kota Surabaya, mengingat tingginya mobilitas dan risiko kerja yang mereka hadapi di jalan raya. 
+Proyek ini merupakan rancang bangun helm pintar berbasis mikrokontroler ATmega2560 yang berfungsi untuk memonitor kondisi pengendara, memberikan peringatan dini saat mengantuk, serta melakukan panggilan darurat otomatis apabila terjadi kecelakaan (deteksi ketika terjatuh) dan hal lain yang menyangkut keselamatan berkendara, difokuskan untuk membantu pengemudi ojek online di Kota Surabaya, mengingat tingginya mobilitas dan risiko kerja yang mereka hadapi di jalan raya. 
 
 ---
 
