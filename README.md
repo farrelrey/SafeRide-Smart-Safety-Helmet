@@ -35,3 +35,11 @@ Proyek ini merupakan rancang bangun helm pintar berbasis mikrokontroler ATmega25
 | 2124600041 | Naurah Carina Wantoro | UI/UX Designer | [NaurahCarina](https://github.com/NaurahCarinaW) |
 | 2124600045 | Wahyu Rizky Setyawan | QA | [WahyuSetyawan](https://github.com/wahyusetiyawan71-glitch) |
 
+## 🛠️ Komponen 
+1. **Arduino Mega (ATmega2560):** Otak utama sistem yang berfungsi memproses seluruh data dari sensor dan mengendalikan modul keluaran secara cepat dan efisien.
+2. **Sensor IMU MPU6050 (Gyroscope + Accelerometer):** Sensor inersia presisi tinggi yang bertugas membaca orientasi, tingkat kemiringan helm, dan mendeteksi gerakan mengangguk (*nodding*) saat mengantuk maupun kondisi ekstrem saat terjatuh.
+3. **Motor Vibrator:** Modul aktuator yang memberikan respons getaran instan langsung ke helm sebagai peringatan taktil agar pengendara segera terjaga saat terdeteksi *micro-sleep*.
+4. **Buzzer:** Output peringatan suara (*auditory alert*) yang bekerja bersamaan dengan vibrator untuk memberikan alarm peringatan ganda saat kondisi darurat.
+5. **Panic Button Switch:** Tombol darurat fisik yang ditempatkan pada posisi strategis helm sebagai pemicu manual (*manual trigger*) untuk mengirim sinyal bahaya ke server dalam kondisi darurat lainnya.
+
+
