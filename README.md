@@ -1,4 +1,4 @@
-![SafeRide](UI%20UX/logo-saferide.png)
+![SafeRide](ASSET/lBanner.png)
 
 # SafeRide: Sistem Helm Pintar guna Keselamatan Berkendara Berbasis ATmega2560 untuk Mengatasi Risiko Kelelahan dan Kecelakaan pada Ojek Online Kota Surabaya dalam Mendukung SDGs No. 3 Kehidupan Sehat dan Sejahtera
 
