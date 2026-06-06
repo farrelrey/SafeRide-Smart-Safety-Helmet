@@ -14,7 +14,7 @@
     {
       "type": "wokwi-led",
       "id": "led1",
-      "top": 8.4,
+      "top": -1.2,
       "left": 390.6,
       "rotate": 90,
       "attrs": { "color": "red" }
@@ -53,7 +53,7 @@
     {
       "type": "wokwi-resistor",
       "id": "r1",
-      "top": 32.75,
+      "top": 23.15,
       "left": 326.4,
       "attrs": { "value": "1000" }
     },
@@ -75,9 +75,9 @@
     {
       "type": "wokwi-text",
       "id": "text1",
-      "top": 48,
+      "top": 38.4,
       "left": 441.6,
-      "attrs": { "text": "LED Vibrator" }
+      "attrs": { "text": "LED Vibrator/ \nMotor Vibrator" }
     },
     {
       "type": "wokwi-text",
@@ -89,7 +89,7 @@
     {
       "type": "wokwi-text",
       "id": "text3",
-      "top": 19.2,
+      "top": 9.6,
       "left": 441.6,
       "attrs": { "text": "RED LED" }
     },
@@ -155,4 +155,3 @@
   ],
   "dependencies": {}
 }
-
