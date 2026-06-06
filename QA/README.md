@@ -2,3 +2,4 @@ Fungsi QA (Quality Assurance) yaitu sebagai penguji barang agar barang sesuai de
 1. Menguji barang guna sesuai dengan hasil yang di iniginkan 
 2. Mengidentifikasi error dan bug pada sistem 
 3. Mengkordinasi perbaikan bug dan error
+4. Dokumentasi projek SafeRide
