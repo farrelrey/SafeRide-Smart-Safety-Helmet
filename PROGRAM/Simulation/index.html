@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeRide Command Center</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Base Reset & Variables */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --bg-main: #0b1320;
+            --bg-sidebar: #111d2e;
+            --bg-card: #1f3044;
+            --color-text: #ffffff;
+            --color-text-muted: #a0aec0;
+            --color-red: #c51d2e;
+            --color-red-card: #941721;
+            --color-green: #00ff00;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--color-text);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 250px;
+            background-color: var(--bg-sidebar);
+            display: flex;
+            flex-direction: column;
+            border-right: 1px solid #1a2a40;
+        }
+
+        .logo-container {
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #1a2a40;
+        }
+
+        .logo-container h2 {
+            color: #00a8ff;
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            font-style: italic;
+            margin-top: 10px;
+        }
+
+        .nav-menu {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .nav-item {
+            padding: 15px 25px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            color: var(--color-text-muted);
+            transition: 0.3s;
+        }
+
+        .nav-item:hover, .nav-item.active {
+            background-color: #e2e8f0;
+            color: #111d2e;
+            font-weight: bold;
+        }
+
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: var(--bg-sidebar);
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .search-bar {
+            background-color: #1f3044;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 20px;
+            color: white;
+            width: 300px;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            cursor: pointer;
+        }
+
+        /* Emergency Alert Banner - Sembunyikan default */
+        .alert-banner {
+            display: none; 
+            background-color: var(--color-red);
+            color: white;
+            padding: 10px 30px;
+            align-items: center;
+            gap: 10px;
+            font-weight: bold;
+        }
+
+        /* Views Container */
+        .view-section {
+            display: none;
+            padding: 30px;
+        }
+
+        .view-section.active {
+            display: block;
+        }
+
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .driver-card {
+            background-color: var(--bg-card);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+
+        .card-red {
+            background: linear-gradient(to bottom, #d32029 30%, #851c24 100%);
+        }
+
+        .driver-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .driver-header img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #ddd;
+            object-fit: cover;
+        }
+
+        .driver-info h3 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        .driver-info p {
+            font-size: 0.85rem;
+            color: #d1d5db;
+        }
+
+        /* Gauge Area */
+        .gauge-container {
+            text-align: center;
+            margin: 20px 0;
+            position: relative;
+        }
+        
+        .gauge-title {
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+        }
+
+        .svg-gauge {
+            width: 160px;
+            height: 80px;
+        }
+
+        .gauge-percentage {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        /* Status Details */
+        .status-row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            margin-top: 15px;
+            align-items: center;
+        }
+
+        .status-connected {
+            color: var(--color-green);
+            font-weight: bold;
+        }
+
+        /* Map Section */
+        .map-section h2 {
+            margin-bottom: 15px;
+        }
+
+        .map-container {
+            width: 100%;
+            height: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #ccc;
+        }
+
+        /* Login Modal (Hidden by default) */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.7);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .modal-content {
+            background: var(--bg-card);
+            padding: 30px;
+            border-radius: 10px;
+            width: 350px;
+            text-align: center;
+        }
+        .modal-content input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+        }
+        .modal-content button {
+            background: #00a8ff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <aside class="sidebar">
+        <div class="logo-container">
+            <i class="fa-solid fa-shield-halved" style="font-size: 40px; color: #00a8ff;"></i>
+            <h2>SAFERIDE</h2>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item active" onclick="switchTab('dashboard', this)">
+                <i class="fa-solid fa-border-all"></i> DASHBOARD
+            </li>
+            <li class="nav-item" onclick="switchTab('analytics', this)">
+                <i class="fa-solid fa-chart-line"></i> ANALYTICS
+            </li>
+            <li class="nav-item" onclick="switchTab('notification', this)">
+                <i class="fa-solid fa-bell"></i> NOTIFICATION
+            </li>
+            <li class="nav-item" onclick="switchTab('settings', this)">
+                <i class="fa-solid fa-gear"></i> SETTINGS
+            </li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+        <header>
+            <div class="header-left">
+                <h2>SAFERIDE COMMAND CENTER</h2>
+            </div>
+            <div class="header-right" onclick="document.getElementById('loginModal').style.display='flex'">
+                <i class="fa-solid fa-circle-user" style="font-size: 24px;"></i>
+                <span>ADMIN</span>
+            </div>
+        </header>
+
+        <div class="alert-banner" id="alertBanner"></div>
+
+        <section id="dashboard" class="view-section active">
+            <div class="cards-grid">
+                <div class="driver-card card-red">
+                    <div class="driver-header">
+                        <img src="https://ui-avatars.com/api/?name=Ahmad+Subarjo&background=random" alt="Profile">
+                        <div class="driver-info">
+                            <h3>Ahmad Subarjo</h3>
+                            <p>Driver Gojek</p>
+                        </div>
+                    </div>
+                    <div class="gauge-container">
+                        <p class="gauge-title">Battery Level</p>
+                        <svg class="svg-gauge" viewBox="0 0 100 50">
+                            <path d="M 10 50 A 40 40 0 0 1 90 50" fill="none" stroke="#ffffff" stroke-width="12" opacity="0.3"/>
+                            <path d="M 10 50 A 40 40 0 0 1 90 50" fill="none" stroke="#ff3b3b" stroke-width="12" stroke-dasharray="125.6" stroke-dashoffset="0" id="batteryGauge"/>
+                        </svg>
+                        <div class="gauge-percentage" id="batteryText">100%</div>
+                    </div>
+                    <div class="status-row">
+                        <span><i class="fa-regular fa-clock"></i> Riding Duration</span>
+                        <span>07:23:00</span>
+                    </div>
+                    <div class="status-row">
+                        <span><i class="fa-solid fa-gauge-high"></i> G-Force :</span>
+                        <span id="gforceText" style="font-weight: bold; color: #00a8ff;">1.00 G</span>
+                    </div>
+                    <div class="status-row">
+                        <span><i class="fa-solid fa-circle-exclamation"></i> Helmet Status :</span>
+                        <span class="status-connected" id="helmetStatus">CONNECTED</span>
+                    </div>
+                </div>
+
+                <div class="driver-card">
+                    <div class="driver-header">
+                        <img src="https://ui-avatars.com/api/?name=Jono+Subgus&background=random" alt="Profile">
+                        <div class="driver-info">
+                            <h3>Jono Subgus</h3>
+                            <p>Driver Grab</p>
+                        </div>
+                    </div>
+                    <div class="gauge-container">
+                        <p class="gauge-title">Battery Level</p>
+                        <svg class="svg-gauge" viewBox="0 0 100 50">
+                            <path d="M 10 50 A 40 40 0 0 1 90 50" fill="none" stroke="#ffffff" stroke-width="12" opacity="0.3"/>
+                            <path d="M 10 50 A 40 40 0 0 1 90 50" fill="none" stroke="#d4d936" stroke-width="12" stroke-dasharray="125.6" stroke-dashoffset="62.8"/>
+                        </svg>
+                        <div class="gauge-percentage">50%</div>
+                    </div>
+                    <div class="status-row">
+                        <span><i class="fa-solid fa-circle-exclamation"></i> Helmet Status :</span>
+                        <span class="status-connected">CONNECTED</span>
+                    </div>
+                </div>
+
+                <div class="driver-card">
+                    <div class="driver-header">
+                        <img src="https://ui-avatars.com/api/?name=Rudi+Salim&background=random" alt="Profile">
+                        <div class="driver-info">
+                            <h3>Rudi Salim</h3>
+                            <p>Driver Maxim</p>
+                        </div>
+                    </div>
+                    <div class="gauge-container">
+                        <p class="gauge-title">Battery Level</p>
+                        <svg class="svg-gauge" viewBox="0 0 100 50">
+                            <path d="M 10 50 A 40 40 0 0 1 90 50" fill="none" stroke="#ffffff" stroke-width="12" opacity="0.3"/>
+                            <path d="M 10 50 A 40 40 0 0 1 90 50" fill="none" stroke="#32cd32" stroke-width="12" stroke-dasharray="125.6" stroke-dashoffset="113"/>
+                        </svg>
+                        <div class="gauge-percentage">10%</div>
+                    </div>
+                    <div class="status-row">
+                        <span><i class="fa-solid fa-circle-exclamation"></i> Helmet Status :</span>
+                        <span class="status-connected">CONNECTED</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="map-section">
+                <h2>Nearby Drivers</h2>
+                <div class="map-container">
+                    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-122.5298%2C37.7081%2C-122.3551%2C37.8107&amp;layer=mapnik"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="analytics" class="view-section">
+            <h2>Analytics Dashboard</h2>
+            <p>Halaman statistik belum diintegrasikan.</p>
+        </section>
+        <section id="notification" class="view-section">
+            <h2>System Notifications</h2>
+            <p>Log sistem akan muncul di sini.</p>
+        </section>
+        <section id="settings" class="view-section">
+            <h2>System Settings</h2>
+            <p>Pengaturan admin dan konfigurasi.</p>
+        </section>
+    </main>
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <h2>Admin Login</h2>
+            <br>
+            <input type="text" placeholder="Username" id="username">
+            <input type="password" placeholder="Password" id="password">
+            <button onclick="closeLogin()">Login</button>
+            <button onclick="closeLogin()" style="background: #c51d2e;">Batal</button>
+        </div>
+    </div>
+
+    <script>
+        // 1. Script Ganti Tab Menu
+        function switchTab(tabId, element) {
+            document.querySelectorAll('.view-section').forEach(s => s.classList.remove('active'));
+            document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+            document.getElementById(tabId).classList.add('active');
+            element.classList.add('active');
+        }
+
+        // 2. Script Tutup Modal Login
+        function closeLogin() {
+            document.getElementById('loginModal').style.display = 'none';
+        }
+
+        // 3. Script Koneksi ke Python (Wokwi)
+        const socket = new WebSocket('ws://localhost:8080');
+
+        socket.onopen = function() {
+            console.log("Status: Terhubung ke Python Bridge!");
+        };
+
+        socket.onmessage = function(event) {
+    try {
+        const data = JSON.parse(event.data);
+        console.log("Data diterima:", data);
+
+        // Update Baterai
+        let batteryGauge = document.getElementById('batteryGauge');
+        let batteryText = document.getElementById('batteryText');
+        if (batteryGauge && batteryText) {
+            let offset = 125.6 - (125.6 * (data.battery / 100));
+            batteryGauge.style.strokeDashoffset = offset;
+            batteryText.innerText = data.battery + "%";
+        }
+
+        // ---> PROSES UPDATE TELEMETRI G-FORCE DI SINI <---
+        let gforceText = document.getElementById('gforceText');
+        if (gforceText && data.gforce !== undefined) {
+            gforceText.innerText = Number(data.gforce).toFixed(2) + " G";
+        }
+
+        // Update Status SOS / Crash
+        let banner = document.getElementById('alertBanner');
+        let helmetStatus = document.getElementById('helmetStatus');
+        
+        if (data.crash === true) {
+            banner.style.display = 'flex';
+            banner.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> CRASH DETECTED - Ahmad Subarjo mengalami benturan!';
+            banner.style.backgroundColor = '#c51d2e'; // Merah
+            helmetStatus.innerText = "CRASH!";
+            helmetStatus.style.color = "#c51d2e";
+        } 
+        else if (data.sos === true) {
+            banner.style.display = 'flex';
+            banner.innerHTML = '<i class="fa-solid fa-triangle-exclamation"></i> EMERGENCY SOS - Ahmad Subarjo membutuhkan bantuan!';
+            banner.style.backgroundColor = '#d4d936'; // Kuning Orange
+            helmetStatus.innerText = "SOS PRESSED";
+            helmetStatus.style.color = "#d4d936";
+        } 
+        else {
+            banner.style.display = 'none';
+            helmetStatus.innerText = "CONNECTED";
+            helmetStatus.style.color = "#00ff00"; // Hijau
+        }
+    } catch (err) {
+        console.log("Format data bukan JSON: ", event.data);
+    }
+};
+    </script>
+</body>
+</html>
