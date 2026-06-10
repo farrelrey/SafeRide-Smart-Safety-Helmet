@@ -63,7 +63,7 @@ https://github.com/user-attachments/assets/c504996d-90f0-4de0-bc77-203e64780596
 
 ## ⚙️ HARDWEAR
 ---
-##  [] PCB
+##  🔋 PCB
 > Schematic
 <img width="2387" height="1658" alt="schematic" src="https://github.com/user-attachments/assets/8dd8d0d6-5741-4d8a-a544-583d6f0a56cf" />
 
@@ -74,7 +74,7 @@ https://github.com/user-attachments/assets/c504996d-90f0-4de0-bc77-203e64780596
 <img width="667" height="545" alt="Layout 3D" src="https://github.com/user-attachments/assets/5847e991-36bc-476a-853d-e87d3a52b040" />
 
 ---
-## !! 3D Produk
+## ⚙️ 3D Produk
 <img width="689" height="532" alt="3D SRH" src="https://github.com/user-attachments/assets/728f0835-bd6a-4073-9e50-563e0bf6c0d6" />
 <img width="1012" height="556" alt="3D SR" src="https://github.com/user-attachments/assets/4fa0129c-5a7d-408d-b2a0-8e876595c48b" />
 <img width="974" height="653" alt="3D SR (2)" src="https://github.com/user-attachments/assets/a7f48a3a-0cbd-4e74-9d4b-5d6654798721" />
