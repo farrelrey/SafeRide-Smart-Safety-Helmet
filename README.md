@@ -28,6 +28,7 @@ Bagi para pejuang jalanan khususnya rekan-rekan **Ojek Online di Kota Surabaya**
 * **Institusi:** Politeknik Elektronika Negeri Surabaya
 
 ---
+![SafeRide](PPT/SLIDE1.png)
 ## 👥 Anggota Tim
 
 | NRP | Nama | Jobdesk | Akun |
