@@ -40,6 +40,9 @@ Bagi para pejuang jalanan khususnya rekan-rekan **Ojek Online di Kota Surabaya**
 | 2124600041 | Naurah Carina Wantoro | UI/UX Designer | [NaurahCarina](https://github.com/NaurahCarinaW) |
 | 2124600045 | Wahyu Rizky Setyawan | QA | [WahyuSetyawan](https://github.com/wahyusetiyawan71-glitch) |
 ---
+## ?? Video Produk
+https://youtu.be/9iiEuZCZQvA
+---
 ## 🛠️ Komponen 
 1. **Arduino Mega (ATmega2560):** Otak utama sistem yang berfungsi memproses seluruh data dari sensor dan mengendalikan modul keluaran secara cepat dan efisien.
 2. **Sensor IMU MPU6050 (Gyroscope + Accelerometer):** Sensor inersia presisi tinggi yang bertugas membaca orientasi, tingkat kemiringan helm, dan mendeteksi gerakan mengangguk (*nodding*) saat mengantuk maupun kondisi ekstrem saat terjatuh.
