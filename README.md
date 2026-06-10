@@ -85,3 +85,5 @@ https://github.com/user-attachments/assets/c504996d-90f0-4de0-bc77-203e64780596
 ## 🖥️ Tampilan UI/UX
 ![SafeRide](UI%20UX/SafeRIde.jpg)
 ---
+## 💻 Software Tools
+---
