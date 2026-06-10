@@ -138,20 +138,20 @@
     [ "led2:C", "mega:GND.1", "black", [ "h-76.8", "v-37.8" ] ],
     [ "led1:A", "r1:2", "green", [ "h0" ] ],
     [ "led1:C", "mega:GND.1", "black", [ "v0.4", "h-76.8", "v-9.4" ] ],
-    [ "pot1:SIG", "mega:A0", "green", [ "h19.2", "v32.5" ] ],
     [ "imu1:SCL", "mega:21", "green", [ "v-0.08", "h-48", "v-11.7" ] ],
     [ "imu1:SDA", "mega:20", "green", [ "v-0.08", "h-38.4", "v-30.8" ] ],
     [ "oled1:SCL", "mega:21", "green", [ "v-9.6", "h67.5", "v105.6", "h211.2", "v-59.7" ] ],
     [ "oled1:SDA", "mega:20", "green", [ "h48.07", "v105.6", "h230.4", "v-78.8" ] ],
-    [ "bz1:2", "mega:3", "green", [ "h-38.4", "v13.3" ] ],
-    [ "r2:1", "mega:4", "green", [ "h-19.2", "v54.4" ] ],
-    [ "r1:1", "mega:5", "green", [ "h-28.8", "v73.7" ] ],
     [ "pot1:VCC", "mega:5V", "red", [ "h28.8", "v-76" ] ],
     [ "pot1:GND", "mega:GND.2", "black", [ "h38.4", "v-86.4" ] ],
     [ "imu1:VCC", "mega:5V.2", "red", [ "h-19.2", "v38.32" ] ],
-    [ "btn1:2.l", "mega:2", "green", [ "h0", "v-19.4", "h-124.8", "v-19.2" ] ],
+    [ "imu1:GND", "mega:GND.1", "black", [ "h-28.8", "v-105.68", "h0", "v-115.2" ] ],
     [ "btn1:1.r", "mega:GND.1", "black", [ "v0", "h-38.6", "v-172.8" ] ],
-    [ "imu1:GND", "mega:GND.1", "black", [ "h-28.8", "v-105.68", "h0", "v-115.2" ] ]
+    [ "r1:1", "mega:13", "green", [ "v0" ] ],
+    [ "mega:18", "btn1:2.l", "green", [ "h0" ] ],
+    [ "bz1:2", "mega:16", "green", [ "h-67.2", "v76.4" ] ],
+    [ "r2:1", "mega:7", "green", [ "v0", "h-38.4", "v28.8" ] ],
+    [ "pot1:SIG", "mega:A0", "green", [ "h19.2", "v29.2" ] ]
   ],
   "dependencies": {}
 }
