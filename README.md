@@ -46,9 +46,11 @@ Bagi para pejuang jalanan khususnya rekan-rekan **Ojek Online di Kota Surabaya**
 3. **Motor Vibrator:** Modul aktuator yang memberikan respons getaran instan langsung ke helm sebagai peringatan taktil agar pengendara segera terjaga saat terdeteksi *micro-sleep*.
 4. **Buzzer:** Output peringatan suara (*auditory alert*) yang bekerja bersamaan dengan vibrator untuk memberikan alarm peringatan ganda saat kondisi darurat.
 5. **Panic Button Switch:** Tombol darurat fisik yang ditempatkan pada posisi strategis helm sebagai pemicu manual (*manual trigger*) untuk mengirim sinyal bahaya ke server dalam kondisi darurat lainnya.
+---
 
+## ⚙️ Hardware
+---
 
-
-
-## Tampilan UI/UX
+## 🖥️ Tampilan UI/UX
 ![SafeRide](UI%20UX/SafeRIde.jpg)
+---
