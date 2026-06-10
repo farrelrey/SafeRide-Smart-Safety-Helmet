@@ -1,5 +1,16 @@
 ![SafeRide](ASSET/Banner.png)
 
+---
+<h2 align="center">Quick Links</h2>
+<p align="center">
+  <a href="https://youtu.be/9iiEuZCZQvA"><img src="https://img.shields.io/badge/-VIDEO%20INTRO-64C5EB?style=flat-square&logo=youtube&logoColor=white" alt="Video Intro"></a>
+  <br><br>
+  <a href="https://wokwi.com/projects/466427513857531905"><img src="https://img.shields.io/badge/-SIMULASI%20WOKWI-64C5EB?style=flat-square&logo=arduino&logoColor=white" alt="Simulasi Wokwi"></a>
+  <a href="https://canva.link/0y12v4yw2tn06bz"><img src="https://img.shields.io/badge/-PPT%20CANVA-64C5EB?style=flat-square&logo=canva&logoColor=white" alt="PPT Canva"></a>
+</p>
+
+---
+
 # SafeRide: Sistem Helm Pintar guna Keselamatan Berkendara Berbasis ATmega2560 untuk Mengatasi Risiko Kelelahan dan Kecelakaan pada Ojek Online Kota Surabaya dalam Mendukung SDGs No. 3 Kehidupan Sehat dan Sejahtera
 
 > **Sering merasa lelah, mengantuk, atau khawatir dengan risiko tak terduga saat membelah jalanan kota?** 
