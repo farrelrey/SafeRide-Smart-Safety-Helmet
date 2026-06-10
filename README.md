@@ -55,7 +55,18 @@ https://github.com/user-attachments/assets/c504996d-90f0-4de0-bc77-203e64780596
 5. **Panic Button Switch:** Tombol darurat fisik yang ditempatkan pada posisi strategis helm sebagai pemicu manual (*manual trigger*) untuk mengirim sinyal bahaya ke server dalam kondisi darurat lainnya.
 ---
 
-## ⚙️ Hardware
+## ⚙️ HARDWEAR
+---
+##  [] PCB
+> Schematic
+<img width="2387" height="1658" alt="schematic" src="https://github.com/user-attachments/assets/8dd8d0d6-5741-4d8a-a544-583d6f0a56cf" />
+
+> Layout PCB
+<img width="424" height="796" alt="Layout 2D" src="https://github.com/user-attachments/assets/b77f74a6-45b1-4bd5-ac8c-83ce20110544" />
+
+> 3D PCB
+<img width="667" height="545" alt="Layout 3D" src="https://github.com/user-attachments/assets/5847e991-36bc-476a-853d-e87d3a52b040" />
+
 ---
 ## !! 3D Produk
 <img width="689" height="532" alt="3D SRH" src="https://github.com/user-attachments/assets/728f0835-bd6a-4073-9e50-563e0bf6c0d6" />
