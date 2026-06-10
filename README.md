@@ -62,7 +62,7 @@ https://github.com/user-attachments/assets/c504996d-90f0-4de0-bc77-203e64780596
 ---
 
 ## ⚙️ HARDWEAR
----
+
 ##  🔋 PCB
 > Schematic
 <img width="2387" height="1658" alt="schematic" src="https://github.com/user-attachments/assets/8dd8d0d6-5741-4d8a-a544-583d6f0a56cf" />
@@ -81,8 +81,8 @@ https://github.com/user-attachments/assets/c504996d-90f0-4de0-bc77-203e64780596
 <img width="706" height="425" alt="3D SR (3)" src="https://github.com/user-attachments/assets/2b4efaa1-4c6a-4c1a-967a-1814bcf62e4c" />
 
 ---
-## 💡Program 
----
+## 💡PROGRAM
+
 ## 🖥️ Tampilan UI/UX
 ![SafeRide](UI%20UX/SafeRIde.jpg)
 ---
