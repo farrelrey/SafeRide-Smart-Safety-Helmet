@@ -47,6 +47,12 @@ https://github.com/user-attachments/assets/c504996d-90f0-4de0-bc77-203e64780596
 
 
 ---
+## 🖼️ Preview Presentasi
+
+[![Lihat Presentasi](https://img.shields.io/badge/LIHAT-PRESENTASI-0084FF?style=flat-square)](https://canva.link/0y12v4yw2tn06bz)
+
+> Klik tombol di atas untuk membuka presentasi secara penuh di Canva.
+---
 ## 🛠️ Komponen 
 1. **Arduino Mega (ATmega2560):** Otak utama sistem yang berfungsi memproses seluruh data dari sensor dan mengendalikan modul keluaran secara cepat dan efisien.
 2. **Sensor IMU MPU6050 (Gyroscope + Accelerometer):** Sensor inersia presisi tinggi yang bertugas membaca orientasi, tingkat kemiringan helm, dan mendeteksi gerakan mengangguk (*nodding*) saat mengantuk maupun kondisi ekstrem saat terjatuh.
