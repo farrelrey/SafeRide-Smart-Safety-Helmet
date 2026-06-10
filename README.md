@@ -41,7 +41,11 @@ Bagi para pejuang jalanan khususnya rekan-rekan **Ojek Online di Kota Surabaya**
 | 2124600045 | Wahyu Rizky Setyawan | QA | [WahyuSetyawan](https://github.com/wahyusetiyawan71-glitch) |
 ---
 ## ?? Video Produk
-https://youtu.be/9iiEuZCZQvA
+
+
+https://github.com/user-attachments/assets/c504996d-90f0-4de0-bc77-203e64780596
+
+
 ---
 ## 🛠️ Komponen 
 1. **Arduino Mega (ATmega2560):** Otak utama sistem yang berfungsi memproses seluruh data dari sensor dan mengendalikan modul keluaran secara cepat dan efisien.
