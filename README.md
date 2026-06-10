@@ -85,6 +85,13 @@ https://github.com/user-attachments/assets/c504996d-90f0-4de0-bc77-203e64780596
 
 ## 🖥️ Tampilan UI/UX
 ![SafeRide](UI%20UX/SafeRIde.jpg)
+
+---
+## SIMULASI
+[![Lihat Simulasi](https://img.shields.io/badge/LIHAT-SIMULASI-0084FF?style=flat-square)](https://wokwi.com/projects/466427513857531905)
+
+> Klik tombol di atas untuk membuka simulasi secara penuh pada wokwi.
+
 ---
 ## 💻 Software Tools
 ---
