@@ -51,4 +51,4 @@ Bagi para pejuang jalanan khususnya rekan-rekan **Ojek Online di Kota Surabaya**
 
 
 ## Tampilan UI/UX
-![SafeRide](UIUX/SafeRIde.png)
+![SafeRide](UI%20UX/SafeRIde.jpg)
