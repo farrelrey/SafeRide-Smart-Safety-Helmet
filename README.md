@@ -88,6 +88,8 @@ Desain hardware SafeRide dirancang sebagai sistem helm pintar guna keselamatan b
 
 ---
 ## ⚙️ 3D Produk
+Desain 3D Dari produk SafeRide ini hampir menyerupai intercom helm dimana akan di letakan pada bagian sisi samping helm. Produk dari SafeRide sendiri berbentuk persegi dengan adanya led display untuk memberitahu segala kondisi, buzzer untuk memberi peringatan, push button sebagai tombol darurat dan ada saklar untuk menghidupkan sistem
+
 <img width="689" height="532" alt="3D SRH" src="https://github.com/user-attachments/assets/728f0835-bd6a-4073-9e50-563e0bf6c0d6" />
 <img width="1012" height="556" alt="3D SR" src="https://github.com/user-attachments/assets/4fa0129c-5a7d-408d-b2a0-8e876595c48b" />
 <img width="974" height="653" alt="3D SR (2)" src="https://github.com/user-attachments/assets/a7f48a3a-0cbd-4e74-9d4b-5d6654798721" />
