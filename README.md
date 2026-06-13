@@ -74,7 +74,7 @@ https://github.com/user-attachments/assets/c504996d-90f0-4de0-bc77-203e64780596
 ---
 
 ## ⚙️ HARDWEAR
-desain hardware SafeRide dirancang sebagai sistem helm pintar guna keselamatan berbasis ATmega256 untuk mengatasi risiko kelelahan dan kecelakaan pada ojek online Kota Surabaya. sistem ini mengunakan sensor guna memantau gerakan pada helm dan memberikan output secara langsung bila terjadi gerakan yang di tentukan 
+Desain hardware SafeRide dirancang sebagai sistem helm pintar guna keselamatan berbasis ATmega256 untuk mengatasi risiko kelelahan dan kecelakaan pada ojek online Kota Surabaya. sistem ini mengunakan sensor guna memantau gerakan pada helm dan memberikan output secara langsung bila terjadi gerakan yang di tentukan 
 
 ##  🔋 PCB
 > Schematic
