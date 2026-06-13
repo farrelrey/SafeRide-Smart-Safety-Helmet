@@ -95,8 +95,6 @@ Desain 3D Dari produk SafeRide ini hampir menyerupai intercom helm dimana akan d
 <img width="974" height="653" alt="3D SR (2)" src="https://github.com/user-attachments/assets/a7f48a3a-0cbd-4e74-9d4b-5d6654798721" />
 <img width="706" height="425" alt="3D SR (3)" src="https://github.com/user-attachments/assets/2b4efaa1-4c6a-4c1a-967a-1814bcf62e4c" />
 
-## 🏗️ Visualisasi Sistem
-<img width="843" height="587" alt="image" src="https://github.com/user-attachments/assets/b6f2c31a-b717-4034-ace2-bab56c2d034b" />
 
 
 ---
@@ -107,6 +105,10 @@ Desain 3D Dari produk SafeRide ini hampir menyerupai intercom helm dimana akan d
 
 ---
 ## SIMULASI
+Simulasi digunakan untuk menguji logika kerja sistem SafeRide yang akan  diterapkan pada hardware secara langsung. Melalui simulasi ini, pembacaan sensor, tampilan LCD, input tombol, serta output berupa buzzer dan LED dapat diuji sesuai skenario kondisi pada produk SafeRide.
+
+<img width="843" height="587" alt="image" src="https://github.com/user-attachments/assets/b6f2c31a-b717-4034-ace2-bab56c2d034b" />
+
 [![Lihat Simulasi](https://img.shields.io/badge/LIHAT-SIMULASI-0084FF?style=flat-square)](https://wokwi.com/projects/466427513857531905)
 
 > Klik tombol di atas untuk membuka simulasi secara penuh pada wokwi.
