@@ -103,6 +103,12 @@ Desain 3D Dari produk SafeRide ini hampir menyerupai intercom helm dimana akan d
 ---
 ## 🖥️ Tampilan UI/UX
 ![SafeRide](UI%20UX/SafeRIde.jpg)
+![SafeRide](UI%20UX/SafeRIde(2).jpg)
+![SafeRide](UI%20UX/SafeRIde(3).jpg)
+![SafeRide](UI%20UX/SafeRIde(4).jpg)
+[![Lihat Desain UI/UX](https://img.shields.io/badge/LIHAT-DESAIN%20UI%2FUX-0084FF?style=flat-square&logo=figma&logoColor=white)](https://www.figma.com/design/637IOxPMfureiWZSya5zpK/SafeRIde?m=auto&t=TRC3NaeIBjyGvFsu-6)
+
+> Klik tombol di atas untuk membuka desain UI/UX SafeRide secara penuh di Figma.
 
 ---
 ## SIMULASI
