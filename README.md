@@ -105,6 +105,8 @@ Desain 3D Dari produk SafeRide ini hampir menyerupai intercom helm dimana akan d
 
 ---
 ## 🖥️ Tampilan UI/UX
+UI/UX SafeRide dirancang untuk memudahkan pengguna dalam memantau pengendara. Tampilan aplikasi dibuat sederhana agar pengguna dapat melihat informasi penting seperti kondisi batrai, lokasi, berapa lama berkendara dan dashboard monitoring dengan mudah.
+
 ![SafeRide](UI%20UX/SafeRIde.jpg)
 ![SafeRide](UI%20UX/SafeRIde(2).jpg)
 ![SafeRide](UI%20UX/SafeRIde(3).jpg)
