@@ -5,7 +5,8 @@
 <p align="center">
   <a href="https://www.figma.com/board/om5JFM0uuXswFDp852kJsz/Brainstroming-Ide-Projek-Mikro?t=TRC3NaeIBjyGvFsu-6"><img src="https://img.shields.io/badge/-BRAINSTORMING%20IDE-64C5EB?style=flat-square&logo=figma&logoColor=white" alt="Brainstorming Ide"></a>
   <a href="https://youtu.be/9iiEuZCZQvA"><img src="https://img.shields.io/badge/-VIDEO%20INTRO-64C5EB?style=flat-square&logo=youtube&logoColor=white" alt="Video Intro"></a>
-    <a href="https://youtu.be/63VO8tdTxeI"><img src="https://img.shields.io/badge/-VIDEO%20KELOMPOK-64C5EB?style=flat-square&logo=youtube&logoColor=white" alt="Video Kelopok"></a>
+    <a href="https://youtu.be/JhZ-vf3Jw8E"><img src="https://img.shields.io/badge/-VIDEO%20KELOMPOK-64C5EB?style=flat-square&logo=youtube&logoColor=white" alt="Video Kelopok"></a>
+   <a href="https://youtu.be/63VO8tdTxeI"><img src="https://img.shields.io/badge/-CONTOH%20SIMULASI-64C5EB?style=flat-square&logo=youtube&logoColor=white" alt="Contoh Simulasi"></a>
   <br><br>
   <a href="https://wokwi.com/projects/466427513857531905"><img src="https://img.shields.io/badge/-SIMULASI%20WOKWI-64C5EB?style=flat-square&logo=arduino&logoColor=white" alt="Simulasi Wokwi"></a>
   <a href="https://canva.link/0y12v4yw2tn06bz"><img src="https://img.shields.io/badge/-PPT%20CANVA-64C5EB?style=flat-square&logo=canva&logoColor=white" alt="PPT Canva"></a>
@@ -120,6 +121,10 @@ UI/UX SafeRide dirancang untuk memudahkan pengguna dalam memantau pengendara. Ta
 Simulasi digunakan untuk menguji logika kerja sistem SafeRide yang akan  diterapkan pada hardware secara langsung. Melalui simulasi ini, pembacaan sensor, tampilan LCD, input tombol, serta output berupa buzzer dan LED dapat diuji sesuai skenario kondisi pada produk SafeRide.
 
 <img width="843" height="587" alt="image" src="https://github.com/user-attachments/assets/b6f2c31a-b717-4034-ace2-bab56c2d034b" />
+
+Berikut merupakan contoh simulasi SafeRide yang bisa kalian lakukan 
+
+  <a href="https://youtu.be/63VO8tdTxeI"><img src="https://img.shields.io/badge/-CONTOH%20SIMULASI-64C5EB?style=flat-square&logo=youtube&logoColor=white" alt="Contoh Simulasi"></a>
 
 [![Lihat Simulasi](https://img.shields.io/badge/LIHAT-SIMULASI-0084FF?style=flat-square)](https://wokwi.com/projects/466427513857531905)
 
