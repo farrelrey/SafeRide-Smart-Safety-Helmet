@@ -60,6 +60,9 @@ Bagi para pejuang jalanan khususnya rekan-rekan **Ojek Online di Kota Surabaya**
 
 https://github.com/user-attachments/assets/c504996d-90f0-4de0-bc77-203e64780596
 
+## 🎬 Video Penjelasan Projek
+
+[![Tonton Video Penjelasan Projek](https://img.youtube.com/vi/63VO8tdTxeI/hqdefault.jpg)](https://youtu.be/63VO8tdTxeI)
 
 ---
 ## 🖼️ Preview Presentasi
