@@ -132,4 +132,11 @@ Berikut merupakan contoh simulasi SafeRide yang bisa kalian lakukan
 
 ---
 ## 💻 Software Tools
+1. Wokwi Simulator
+2. KiCad
+3. VS Code
+4. Figma
+5. Canva
+6. Autodesk
+7. Inventor
 ---
